@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 167, in <module>
+    ref_sp = doasys.gen_refsp(doa, ref_grid, args.gaussian_std / args.ant_num)
+  File "D:\_code\project\SDOA-Net-main\doasys.py", line 80, in gen_refsp
+    ref_sp += np.exp(- dist ** 2 / sigma ** 2)
+KeyboardInterrupt
